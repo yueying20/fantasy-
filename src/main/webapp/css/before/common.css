@@ -1,0 +1,73 @@
+body,h3,h1,p,form,p,ul,li,table,tr,td,dl,dd,textarea,select,img {margin: 0px;padding: 0px;}
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+li,dd{ list-style-type:none;}
+body{ color:#333333;}
+table{ border-collapse:collapse;}
+img{ border:0px;  vertical-align:bottom;}
+em{ font-style:normal;}  
+div{margin:0 auto; padding:0;}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p{
+margin:0; padding:0; border:none; list-style-type:none;
+}
+.block{
+  width:1000px; height:auto;
+}
+.f_l{float:left;}
+.f_r{float:right;}
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.dis{display:block;}
+.inline{display:inline;}
+.none{display:none;}
+
+
+.clearfix:after{
+content:"."; display:block; height:0; clear:both;
+visibility:hidden;
+}
+
+*html .clearfix{
+ height:1%;
+}
+*+html .clearfix{
+ height:1%;
+}
+
+.top5{ padding-top:5px;}
+
+
+.bottom5{ padding-bottom:5px;}
+.bottom10{ padding-bottom:10px;}
+.bottom20{ padding-bottom:20px;}
+
+.left20{ padding-left:20px;}
+.left40{ padding-left:40px;}
+
+.right20{ padding-right:20px;}
+.right40{ padding-right:40px;}
+
+.color_999{ color:#999;}
+.color_red{ color:#f30;}
+
+.ttbb {border:1px solid #ccc;}
+.ttbb td {padding:0 0px; border:1px solid #ccc; line-height:26px;}
+
+.top_web{ width:100%; position:fixed; height:50px; background:#e9f4ff; z-index:1;_position: absolute; left:0;}
+.foot_web{ width:100%; position:fixed; height:35px; background:#e9f4ff; z-index:1;_position: absolute; left:0; bottom:0px;}
+*html .foot_web { display:none;}
+
+
+/* login */
+.login{ width:1000px; float:left; padding-top:50px;}
+.login .kk{ width:560px; border:3px solid #f4f4f4; margin: 0 auto; padding:25px;}
+.login .kk span{ color:#FF0000; padding-right:4px;}
+.login .kk table td{ border-bottom:1px dotted #d3d3d3; padding:10px; font-size:14px;}
+.login .kk .ok{background:url(../../images/before/anniu1.gif) no-repeat 0 top; line-height:34px;width:74px; height:35px; border:none; font-size:14px; color:#fff; font-weight:bold;}
+.login .kk table .none{border-bottom:none;}
+.login .kk table span {font-size:12px;}
+
+.red_pg A {BORDER: #d7d7d7 1px solid; PADDING: 3px 8px; BACKGROUND-COLOR: #fff;  DISPLAY: inline; HEIGHT: 26px; COLOR: #333; MARGIN-LEFT: 4px; OVERFLOW: hidden; TEXT-DECORATION: none; line-height:26px;}
+.red_pg A:hover {BORDER: #f2b579 1px solid; COLOR: #f39131;}
+.red_pg STRONG {BORDER: #f2b579 1px solid; PADDING: 3px 8px; BACKGROUND-COLOR: #ffeac5;  DISPLAY: inline; HEIGHT: 26px; COLOR: #333; MARGIN-LEFT: 4px; OVERFLOW: hidden; TEXT-DECORATION: none; line-height:26px;}
+

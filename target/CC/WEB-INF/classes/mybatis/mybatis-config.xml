@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias alias="Auser" type="com.po.Auser"/>
+        <typeAlias alias="Goods" type="com.po.Goods"/>
+        <typeAlias alias="GoodsType" type="com.po.GoodsType"/>  
+        <typeAlias alias="Buser" type="com.po.Buser"/>
+        <typeAlias alias="Order" type="com.po.Order"/>
+     </typeAliases>
+	 <mappers>
+        <mapper resource="mybatis/admin/AdminGoodsMapper.xml"/>
+        <mapper resource="mybatis/admin/AdminMapper.xml"/>
+        <mapper resource="mybatis/admin/AdminTypeMapper.xml"/>
+        <mapper resource="mybatis/admin/AdminUserMapper.xml"/>
+       	<mapper resource="mybatis/admin/AdminOrderMapper.xml"/>
+       	
+        <mapper resource="mybatis/before/IndexMapper.xml"/>
+        <mapper resource="mybatis/before/UserMapper.xml"/>
+        <mapper resource="mybatis/before/CartMapper.xml"/>
+       	<mapper resource="mybatis/before/OrderMapper.xml"/>
+       	<mapper resource="mybatis/before/UserCenterMapper.xml"/>
+ 	</mappers>
+</configuration>
+
